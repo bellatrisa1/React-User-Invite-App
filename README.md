@@ -17,7 +17,6 @@ User Invite App - это React-приложение, которое позвол
 3. Как запустить проект?
    - Убедитесь, что у вас установлен Node.js.
    - Клонируйте репозиторий: git clone https://github.com/bellatrisa1/React-User-Invite-App.git
-   - Перейдите в директорию проекта: cd user-invite-app
    - Установите зависимости: npm install
    - Запустите проект: npm start
   
