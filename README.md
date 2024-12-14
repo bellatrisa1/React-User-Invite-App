@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+User Invite App - это React-приложение, которое позволяет отображать список пользователей, фильтровать их по имени или email и отправлять им приглашения.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Основной функционал
+   - Загрузка списка пользователей с API.
+   - Фильтрация пользователей по имени или email.
+   - Добавление пользователей в список приглашенных.
+   - Отображение количества приглашенных пользователей.
+   - Возможность отправить приглашения.
 
-## Available Scripts
+2. Используемые технологии
+  - React — библиотека для создания пользовательских интерфейсов.
+  - React Hooks — для управления состоянием (useState, useEffect).
+  - SASS — для стилизации компонентов.
+  - React Content Loader — для отображения заглушек во время загрузки данных.
+  - API Reqres — для получения списка пользователей.
 
-In the project directory, you can run:
+3. Как запустить проект?
+   - Убедитесь, что у вас установлен Node.js.
+   - Клонируйте репозиторий: git clone https://github.com/yourusername/user-invite-app.git
+   - Перейдите в директорию проекта: cd user-invite-app
+   - Установите зависимости: npm install
+   - Запустите проект: npm start
+  
+4. Структура проекта
+  - src/App.js — основной компонент приложения.
+  - src/components/Success.jsx — отображение успешной отправки приглашений.
+  - src/components/Users — включает:
+  - Skeleton.jsx — компонент-заглушка.
+  - User.jsx — отображение одного пользователя.
+  - index.jsx — список пользователей и функционал фильтрации.
+  - index.scss — стили приложения.
 
-### `npm start`
+5. API
+Приложение использует публичное API Reqres для получения списка пользователей. В ответе возвращается массив объектов с данными пользователей, такими как id, first_name, last_name, email, и avatar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6. Скриншоты
+   - ![Снимок экрана 2024-12-14 в 18 46 41](https://github.com/user-attachments/assets/f155eccf-792f-472f-87b4-27fe3cae5278)
+   - ![Снимок экрана 2024-12-14 в 18 47 05](https://github.com/user-attachments/assets/caa1b0cd-0011-4fb9-a696-d323ce6fcf2f)
+   - ![Снимок экрана 2024-12-14 в 18 47 53](https://github.com/user-attachments/assets/603155e3-4653-4cd1-a97a-b66cdc930682)
+   - ![Снимок экрана 2024-12-14 в 18 48 19](https://github.com/user-attachments/assets/926ca2a9-0cc2-40af-8616-50e0388e20b4)
